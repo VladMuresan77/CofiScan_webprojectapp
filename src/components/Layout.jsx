@@ -67,6 +67,7 @@ const {globalUser, logout} =useAuth()
       marginTop: '1rem',
       display: 'flex',
       justifyContent: 'center',
+      alignItems: "center",
       gap: '2rem',
       fontSize: '1.5rem',
     }}
