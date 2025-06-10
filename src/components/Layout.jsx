@@ -66,7 +66,7 @@ const {globalUser, logout} =useAuth()
     style={{
       marginTop: '1rem',
       display: 'flex',
-      justifyContent: 'flex-start',
+      justifyContent: 'center',
       gap: '2rem',
       fontSize: '1.5rem',
     }}
