@@ -1,9 +1,9 @@
 #root {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   padding: 0 10px;
-  max-width:  1000px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
@@ -128,8 +128,6 @@ h2 {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: center; */
   gap: 1rem;
 }
 
@@ -252,6 +250,79 @@ footer {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+/* ======================= */
+/* RESPONSIVE ADAPTĂRI MOBIL */
+/* ======================= */
+
+@media (max-width: 639px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  header button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-info,
+  .coffee-grid,
+  .stats-grid,
+  .time-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .coffee-grid button {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    padding: 0.5rem;
+  }
+
+  .modal-content {
+    min-height: auto;
+    padding: 1rem;
+  }
+
+  .stat-text {
+    font-size: 1.5rem;
+  }
+
+  .info-card {
+    font-size: 1rem;
+  }
+
+  .status h5 {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+  }
+
+  .register-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .coffee-history {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .coffee-history i {
+    font-size: 1.25rem;
+  }
+
+  main h1,
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 640px) {

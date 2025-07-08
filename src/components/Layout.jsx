@@ -53,7 +53,7 @@ const {globalUser, logout} =useAuth()
   <p>
     Check out the project on{" "}
     <a
-      href="https://github.com/VladMuresan77"
+      href="https://github.com/VladMuresan77/CofiScan_webprojectapp"
       target="_blank"
       rel="noopener noreferrer"
     >
