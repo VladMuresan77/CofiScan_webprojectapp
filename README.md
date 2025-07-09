@@ -25,7 +25,7 @@ A responsive web application for tracking coffee consumption, allowing users to 
 
 ## Live Demo
 
-[https://cofiscan-web-app.netlify.app](https://cofiscan-web-app.netlify.app) <!-- Dacă ai linkul live -->
+[https://cofiscan-web-app.netlify.app](https://cofiscan.netlify.app) 
 
 ---
 
