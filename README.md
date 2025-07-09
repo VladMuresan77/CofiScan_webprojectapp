@@ -1,14 +1,44 @@
-# React + Vite
+# ☕ Cofiscan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for tracking coffee consumption, allowing users to log and monitor their coffee intake and related metrics. The app features a clean and user-friendly interface, secure authentication, and smooth performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🖥️ Responsive design built with React.js and Vite  
+- 🔐 User authentication and session management with Firebase Authentication  
+- ☕ Simple interface to log and track coffee consumption and related stats  
+- 🚀 Deployed on Netlify for easy access  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# CofiScan_webprojectapp" 
-"# CofiScan_webprojectapp" 
+---
+
+## Tech Stack
+
+- React.js  
+- Vite  
+- Firebase Authentication  
+- Custom CSS/ Fanta CSS 
+- Netlify  
+
+---
+
+## Live Demo
+
+[https://cofiscan-web-app.netlify.app](https://cofiscan-web-app.netlify.app) <!-- Dacă ai linkul live -->
+
+---
+
+## GitHub Repository
+
+[https://github.com/VladMuresan77/Cofiscan](https://github.com/VladMuresan77/Cofiscan)
+
+---
+
+## Installation & Running Locally
+
+```bash
+git clone https://github.com/VladMuresan77/Cofiscan.git
+cd Cofiscan
+npm install
+npm run dev
